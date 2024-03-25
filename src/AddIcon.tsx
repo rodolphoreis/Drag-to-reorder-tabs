@@ -1,11 +1,13 @@
+import "./style.css";
+
 export function AddIcon() {
   return (
     <svg
+      className="add-icon"
       xmlns="http://www.w3.org/2000/svg"
       width="10"
       height="10"
       viewBox="0 0 20 20"
-      style={{ transform: "rotate(45deg)", stroke: "black" }}
     >
       <path
         d="M 3 3 L 17 17"
